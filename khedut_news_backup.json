@@ -1,0 +1,100 @@
+{
+  "enabled": true,
+  "slug": "khedut_news",
+  "env_prefix": "B1_",
+  "business_name": "Khedut News",
+  "business_details": "Gujarat na khedut mate roj ni kheti, havaman, sarkari yojana ane bajar ni khabar — saral Gujarati ma.",
+  "safety_note": "News: use only facts from the source. No rumours. No politics, religion or crime.",
+  "default": {
+    "topic": "kheti ni khabar",
+    "language": "Hindi (English akshar)",
+    "tone": "spasht, saral, nishpaksh",
+    "bg_top": "#b71c1c",
+    "bg_bottom": "#263238"
+  },
+  "platforms": {
+    "facebook": {
+      "enabled": false
+    },
+    "instagram": {
+      "enabled": false
+    },
+    "youtube": {
+      "enabled": false
+    },
+    "whatsapp": {
+      "enabled": false
+    },
+    "threads": {
+      "enabled": false
+    },
+    "x": {
+      "enabled": false
+    },
+    "linkedin": {
+      "enabled": false
+    },
+    "pinterest": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": false
+    },
+    "snapchat": {
+      "enabled": false
+    }
+  },
+  "accounts": [],
+  "topics": [],
+  "formats": {
+    "post": true,
+    "carousel": false,
+    "story": true,
+    "reel": false,
+    "video": false
+  },
+  "time_variation_minutes": 20,
+  "season": "kheti",
+  "calendar_tags": [
+    "all",
+    "kheti"
+  ],
+  "post_image": "ai",
+  "news": {
+    "enabled": true,
+    "sources": [
+      {
+        "name": "Google News: ખેડૂત OR ખેતી OR કૃષિ",
+        "url": "https://news.google.com/rss/search?q=%E0%AA%96%E0%AB%87%E0%AA%A1%E0%AB%82%E0%AA%A4+OR+%E0%AA%96%E0%AB%87%E0%AA%A4%E0%AB%80+OR+%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AA%BF+when%3A1d&hl=gu&gl=IN&ceid=IN:gu"
+      },
+      {
+        "name": "Google News: Gujarat farmers",
+        "url": "https://news.google.com/rss/search?q=Gujarat+farmers+OR+agriculture+Gujarat+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "name": "PIB",
+        "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3&reg=48"
+      }
+    ],
+    "include": [],
+    "exclude": [],
+    "block": [
+      "politics",
+      "religion",
+      "crime"
+    ],
+    "prepare_time": "07:30",
+    "post_times": [
+      "09:00",
+      "13:00",
+      "18:00"
+    ],
+    "time_variation_minutes": 20,
+    "channels": [],
+    "approval": true,
+    "max_age_hours": 36
+  },
+  "hashtags_count": 5,
+  "hashtag_no_repeat_days": 5,
+  "voice": "hindi_female"
+}

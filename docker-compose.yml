@@ -1,0 +1,29 @@
+# Online server: app fakt server ni andar (127.0.0.1) — bahar thi sidhi NATHI khulti.
+# Internet thi kholva: Cloudflare Tunnel (free, HTTPS jate) — README → "24 kalak chalavo".
+services:
+  social-app:
+    build: .
+    restart: always
+    command: ["python", "main.py", "--app", "--server", "--port", "8080"]
+    ports:
+      - "127.0.0.1:8080:8080"      # fakt server par thi — internet par khulli nahi
+    env_file: .env
+    environment:
+      - APP_ACCESS=server
+    volumes:
+      - ./output:/app/output
+      - ./backups:/app/backups
+      - ./config.json:/app/config.json
+      - ./festivals.json:/app/festivals.json
+      - ./fonts:/app/fonts
+      - ./assets:/app/assets
+      - ./.env:/app/.env
+
+  tunnel:                          # Cloudflare Tunnel: one.dash.cloudflare.com → Zero Trust → Tunnels → token
+    image: cloudflare/cloudflared:latest
+    restart: always
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${TUNNEL_TOKEN}
+    depends_on: [social-app]
+    profiles: ["tunnel"]           # chalu karva: docker compose --profile tunnel up -d

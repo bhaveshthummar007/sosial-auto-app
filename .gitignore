@@ -1,0 +1,5 @@
+.env
+__pycache__/
+output/media_links.json
+certs/
+.env.enc

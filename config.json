@@ -1,0 +1,2179 @@
+{
+  "ai_providers": [
+    {
+      "type": "gemini",
+      "model": "gemini-flash-lite-latest",
+      "_note": "FREE — Google AI Studio"
+    },
+    {
+      "type": "gemini",
+      "model": "gemini-flash-latest",
+      "_note": "FREE — Google AI Studio"
+    },
+    {
+      "type": "groq",
+      "model": "openai/gpt-oss-120b",
+      "_note": "FREE — GroqCloud"
+    },
+    {
+      "type": "ollama",
+      "model": "gemma3:12b",
+      "_note": "FREE — tamara computer par (Ollama install karo)"
+    },
+    {
+      "type": "anthropic",
+      "model": "claude-haiku-5-5",
+      "_note": "PAID — chhello vikalp, key na hoy to chhodi de chhe"
+    }
+  ],
+  "ai_doctor": true,
+  "learn_from_likes": true,
+  "quality": {
+    "enabled": true,
+    "min_score": 8,
+    "max_rounds": 1
+  },
+  "festival_days_ahead": 3,
+  "backup_keep_days": 30,
+  "post_time": "07:00",
+  "timezone": "Asia/Kolkata",
+  "hashtags_count": 5,
+  "image": {
+    "make_image": true,
+    "font_path": "fonts/NotoSansGujarati-Bold.ttf",
+    "width": 1080,
+    "height": 1350,
+    "text_color": "#ffffff"
+  },
+  "brands": [
+    {
+      "slug": "khedut_putra",
+      "env_prefix": "KHEDUT_",
+      "business_name": "Khedut Putra",
+      "business_details": "Gujarat na khedut mate nu page. Kheti ni sachi mahiti, pak (kapas, magfali, ghau, jiru, shakbhaji) ni tips, havaman, sarkari yojana ni jankari, organic kheti, pashupalan ane khedut ni prerak kahani. Page ne follow/share karvanu kaho.",
+      "safety_note": "Farming advice must be safe and general. Do NOT give exact pesticide/chemical doses, exact subsidy amounts or scheme deadlines. For such details tell farmers to contact their nearest Krishi Vigyan Kendra, gram sevak or the official i-Khedut portal.",
+      "default": {
+        "topic": "kheti ane khedut ne upyogi mahiti",
+        "language": "Gujarati",
+        "tone": "gamthi, potapanu, saral ane maan-bharyu",
+        "bg_top": "#1b5e20",
+        "bg_bottom": "#4caf50"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": true,
+          "topic": "khedut ni prerak kahani + aaj ni kheti tip"
+        },
+        "instagram": {
+          "enabled": true,
+          "topic": "nani kheti tip ane gamda nu jivan",
+          "tone": "energetic, emoji sathe",
+          "bg_top": "#33691e",
+          "bg_bottom": "#c0ca33"
+        },
+        "youtube": {
+          "enabled": true,
+          "topic": "60 second ma ek kheti tip ke khedut ni kahani",
+          "bg_top": "#3e2723",
+          "bg_bottom": "#8d6e63"
+        },
+        "whatsapp": {
+          "enabled": true,
+          "topic": "khedut mitro mate savar no sandesh ane havaman/sizan ni yaad",
+          "bg_top": "#075e54",
+          "bg_bottom": "#25d366"
+        },
+        "threads": {
+          "enabled": false,
+          "topic": "khedut mate aaj no vichar"
+        },
+        "x": {
+          "enabled": false,
+          "topic": "kheti ni ek line ni tip"
+        },
+        "telegram": {
+          "enabled": false,
+          "topic": "vistar ma kheti ni mahiti"
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "enabled": true,
+      "season": "kheti",
+      "calendar_tags": [
+        "all",
+        "kheti"
+      ],
+      "accounts": [
+        {
+          "enabled": false,
+          "platform": "facebook",
+          "name": "Khedut Putra Saurashtra",
+          "page_id": "PAGE_ID_AHI",
+          "topic": "Saurashtra na khedut: kapas, magfali, jiru"
+        },
+        {
+          "enabled": false,
+          "platform": "facebook",
+          "name": "Khedut Putra Uttar Gujarat",
+          "page_id": "PAGE_ID_AHI",
+          "topic": "Uttar Gujarat: bataka, rayado, pashupalan"
+        },
+        {
+          "enabled": false,
+          "platform": "instagram",
+          "name": "@khedutputra_reels",
+          "ig_user_id": "IG_ID_AHI",
+          "topic": "nani reels mate kheti tip",
+          "bg_top": "#2e7d32",
+          "bg_bottom": "#ffb300"
+        },
+        {
+          "enabled": false,
+          "platform": "instagram",
+          "name": "@khedutputra_2",
+          "ig_user_id": "IG_ID_AHI",
+          "copy_from": "instagram:khedutputra_reels"
+        },
+        {
+          "enabled": false,
+          "platform": "facebook_group",
+          "name": "Khedut Groups",
+          "group_links": [
+            "https://www.facebook.com/groups/GROUP1",
+            "https://www.facebook.com/groups/GROUP2"
+          ]
+        }
+      ],
+      "topics": [
+        "Aa season ma kaya pak ni vavni karvi",
+        "Jamin ni tapas (soil test) kem ane kyare",
+        "Organic khatar ane jivamrut ghare kem banavvu",
+        "Tapak (drip) ane fuvara pijat thi pani ni bachat",
+        "Kapas ma gulabi iyal thi bachav (general upay)",
+        "Magfali ma vadhu utpadan mate dhyan",
+        "Pashupalan: gay-bhens ni sambhal ane dudh vadharva",
+        "Bij ni pasandgi: saru bij kem olakhvu",
+        "Pak ne thandi/garmi thi bachavva",
+        "Kheti na saadhan ane sarkari sahay ni mahiti kya thi",
+        "Bajar ma saro bhav melavva vechvanu kyare",
+        "Jivat-rog olakhva ane KVK ni madad",
+        "Mishra pak ane antar-pak thi vadhu kamani",
+        "Varsad pehla ane pachhi kheti ni taiyari",
+        "Mahila khedut ane yuva khedut ni prerak vaato",
+        "Gaumutra ane chhan nu sacho upyog",
+        "Shakbhaji ni kheti thi roj ni avak",
+        "Fal-baag (keri, papaiya, kela) ni sambhal"
+      ],
+      "formats": {
+        "post": true,
+        "story": true,
+        "reel": true,
+        "video": true,
+        "carousel": true
+      },
+      "time_variation_minutes": 30,
+      "auto_reply": false,
+      "faq": "",
+      "location": {
+        "name": "Gondal, Gujarat",
+        "lat": 21.96,
+        "lon": 70.8
+      },
+      "apmc": {
+        "enabled": true,
+        "base_url": "https://apmcgondal.scmsolution.in",
+        "title": "ગોંડલ માર્કેટિંગ યાર્ડ",
+        "source_name": "APMC ગોંડલ",
+        "sources": [
+          "jansi"
+        ],
+        "window_start": "13:00",
+        "window_end": "16:00",
+        "check_every_min": 15,
+        "channels": [
+          "facebook",
+          "instagram"
+        ],
+        "rows_per_image": 14,
+        "unit_text": "",
+        "only": [],
+        "skip_zero": true,
+        "markets": [
+          {
+            "name": "Rajkot",
+            "title": "રાજકોટ માર્કેટિંગ યાર્ડ",
+            "enabled": true
+          },
+          {
+            "name": "Junagadh",
+            "title": "જૂનાગઢ માર્કેટિંગ યાર્ડ",
+            "enabled": true
+          },
+          {
+            "name": "Amreli",
+            "title": "અમરેલી માર્કેટિંગ યાર્ડ",
+            "enabled": true
+          },
+          {
+            "name": "Jamnagar",
+            "title": "જામનગર માર્કેટિંગ યાર્ડ",
+            "enabled": true
+          }
+        ]
+      },
+      "voice": "female",
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: ખેડૂત OR ખેતી OR કૃષિ",
+            "url": "https://news.google.com/rss/search?q=%E0%AA%96%E0%AB%87%E0%AA%A1%E0%AB%82%E0%AA%A4+OR+%E0%AA%96%E0%AB%87%E0%AA%A4%E0%AB%80+OR+%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AA%BF+when%3A1d&hl=gu&gl=IN&ceid=IN:gu"
+          },
+          {
+            "name": "Google News: Gujarat farmers",
+            "url": "https://news.google.com/rss/search?q=Gujarat+farmers+OR+agriculture+Gujarat+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "PIB",
+            "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3&reg=48"
+          },
+          {
+            "name": "Google News: ખેડૂત સહાય યોજના",
+            "url": "https://news.google.com/rss/search?q=%E0%AA%96%E0%AB%87%E0%AA%A1%E0%AB%82%E0%AA%A4+%E0%AA%B8%E0%AA%B9%E0%AA%BE%E0%AA%AF+%E0%AA%AF%E0%AB%8B%E0%AA%9C%E0%AA%A8%E0%AA%BE+OR+i-Khedut+OR+ikhedut+when%3A1d&hl=gu&gl=IN&ceid=IN:gu"
+          },
+          {
+            "name": "Google News: Gujarat farmers scheme",
+            "url": "https://news.google.com/rss/search?q=Gujarat+farmers+scheme+subsidy+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "09:30",
+          "18:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "GOVERNMENT SAHAY/YOJANA for farmers first: if an item is about a new or open scheme, subsidy, MSP, insurance (pak vimo), or i-Khedut application, prefer it and say clearly: yojana nu naam, kone labh, kem arji — ONLY from the item. Never invent amounts or last dates; end with 'vigat ane chhelli tarikh i-Khedut portal / gram sevak par tapaso'."
+      },
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "gujarat_agri_business",
+          "our_gujarat_news"
+        ]
+      },
+      "page_link": "",
+      "crop_guide": {
+        "enabled": true,
+        "weekday": 2,
+        "scenes": 12,
+        "crops": [
+          "કપાસ",
+          "મગફળી",
+          "ઘઉં",
+          "જીરું",
+          "ચણા",
+          "ડુંગળી",
+          "લસણ",
+          "બાજરી",
+          "તલ",
+          "એરંડા",
+          "ધાણા",
+          "વરિયાળી",
+          "ટમેટા",
+          "મરચાં",
+          "રીંગણ",
+          "કેળ",
+          "કેરી",
+          "પપૈયા",
+          "જુવાર",
+          "મગ",
+          "તુવેર",
+          "સોયાબીન",
+          "શેરડી",
+          "બટાટા"
+        ]
+      }
+    },
+    {
+      "slug": "chiron_enterprise",
+      "env_prefix": "CHIRON_",
+      "business_name": "Chiron Enterprise",
+      "business_details": "Chiron Enterprise — 3 seva: (1) CONSTRUCTION: ghar, bungalow, apartment, dukan-office, industrial shed ane godown nu bandhkam; RCC kaam, compound wall, renovation, plaster-rang, flooring, waterproofing ane contract work. (2) POWER LINE nu kaam (electrical contract): 11 kV, 22 kV ane 33 kV HT line ane LT line — pole ubha karva, DP structure, conductor stringing, transformer ane substation installation, underground cable laying, earthing, line shifting, maintenance ane navu connection nu kaam — electricity board/DISCOM, GETCO (Gujarat Energy Transmission Corporation) na transmission line ane substation na kaam, ane company na project. (2a) SOLAR nu kaam: rooftop solar, ground-mounted solar plant, module mounting structure, DC/AC cabling, inverter, earthing-lightning protection, ane plant thi grid sudhi ni evacuation line / substation. (2b) WINDFARM nu kaam: windmill (WTG) mate 33 kV internal line, pooling substation, evacuation line, cable laying ane maintenance. (3) FRP (Fiber Reinforced Plastic) products ane fitting: FRP grating (walkway/platform), cable tray, ladder, handrail, sheet/panel, pipe, tank vagere — kaat na lage, halku, majbut, chemical/pani ma saru, lambu chale. Sachi quality, samay par kaam ane safety pehla. (Ahi shaher, phone, website ane pura thayela project umero.)",
+      "safety_note": "Do not invent project names, client/DISCOM names, prices, awards, certifications, licence numbers or exact technical ratings. HIGH VOLTAGE: never suggest that the public touch, climb or repair lines/transformers; always say such work is only for trained, authorised linemen with shutdown/permit-to-work, earthing and safety gear (helmet, gloves, safety belt). Safety tips for the public: stay away from fallen wires, do not fly kites or build near lines, call the electricity helpline. Construction and FRP tips must be general and correct. The owner confirms they do GETCO, solar and windfarm works — you may say 'GETCO na kaam' generally, but never invent specific project names, locations, MW/kV capacities, dates or client lists. Solar/wind savings: no exact rupee/units/payback numbers; say it depends on site.",
+      "default": {
+        "topic": "construction, 11/33 kV power line, GETCO, solar ane windfarm nu kaam, FRP product-fitting, safety ane gyan",
+        "language": "Hindi (English akshar)",
+        "tone": "vishvasniya, professional pan saral",
+        "bg_top": "#e65100",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": true,
+          "topic": "ghar banavta pehla dhyan rakhvani vaato + sapna nu ghar banavti kahani"
+        },
+        "instagram": {
+          "enabled": true,
+          "topic": "construction tips, design ideas, site par nu kaam",
+          "tone": "modern, emoji sathe",
+          "bg_top": "#ff6f00",
+          "bg_bottom": "#212121"
+        },
+        "linkedin": {
+          "enabled": true,
+          "topic": "construction industry, quality, safety ane company na mulyo",
+          "tone": "professional",
+          "language": "English",
+          "bg_top": "#0a66c2",
+          "bg_bottom": "#263238"
+        },
+        "youtube": {
+          "enabled": true,
+          "topic": "60 second construction tip (cement, saliya, waterproofing, plan)",
+          "bg_top": "#bf360c",
+          "bg_bottom": "#000000"
+        },
+        "whatsapp": {
+          "enabled": false,
+          "topic": "grahako mate savar no sandesh"
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false,
+          "topic": "ghar design idea"
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "enabled": true,
+      "season": "construction",
+      "calendar_tags": [
+        "all",
+        "construction"
+      ],
+      "accounts": [],
+      "topics": [
+        "Navu ghar banavta pehla 7 jaruri vaato",
+        "Saro cement, sariya ane retina kem olakhva",
+        "Slab bharti vakhte curing kem ane ketla divas",
+        "Ghar ma bhej (seepage) ane leakage thi bachav",
+        "Vastu ane hava-ujas vadu ghar nu planning",
+        "Renovation ma kharch bachavvana upay",
+        "11 kV / 33 kV line nu kaam kem thay chhe (step by step)",
+        "Power line paase safety: loko mate jaruri chetavani",
+        "Transformer ane substation installation ni prakriya",
+        "Earthing kem jaruri chhe ane saru earthing kevu",
+        "FRP grating ane cable tray na fayda",
+        "FRP vs steel: kaat (rust) vagar lambu chale",
+        "Contract aapta pehla contractor ma shu jovu",
+        "Site par kamdar ni safety (helmet, belt, gloves)",
+        "Amaru pura thayelu kaam: pehla ane pachhi",
+        "Ame shu shu kariye: construction, power line ane FRP — ek j jagya e",
+        "Industrial shed ane godown nu bandhkam: shu dhyan rakhvu",
+        "Compound wall: majbut ane sasti kem banavvi",
+        "Sachu mapan ane estimate kem nakki thay (general)",
+        "Bandhkam ma kaam no kram: plan → paayo → column → slab → finishing",
+        "Tiles ane flooring ni pasandgi",
+        "Ghar no rang: andar-bahar mate kayo",
+        "Varsad pehla chhat ane diwal ni taiyari",
+        "Juna ghar nu renovation kyare ane kem",
+        "Saro contractor kem olakhvo: 7 sawal puchho",
+        "Building material: saru-kharab kem olakhvu (eint, cement, sariya, reti)",
+        "Site par kamdar ni safety: helmet, belt, jali",
+        "HT ane LT line no farak saral bhasha ma",
+        "Pole erection ane DP structure kem bane",
+        "Conductor stringing: line kem khenchay",
+        "Underground cable laying na fayda",
+        "Line shifting: ghar/plot paase thi line khasedvi hoy to shu karvu (DISCOM prakriya — official tapaso)",
+        "Navu transformer kyare jaruri",
+        "Substation nu kaam: step by step (general)",
+        "Lineman ni safety: shutdown, permit, earthing, PPE",
+        "Varsad-vavazoda ma tutela vayar thi dur raho",
+        "Kheti/industry mate navu electric connection ni samaj (general)",
+        "FRP grating: kya vapray (factory, plant, platform)",
+        "FRP cable tray vs GI tray",
+        "FRP ladder: electrical kaam mate surakshit (current na lage)",
+        "FRP handrail ane walkway",
+        "FRP sheet ane panel na upyog",
+        "FRP tank ane pipe: chemical ane pani mate",
+        "FRP fitting kem thay ane maintenance",
+        "Chemical, dariya kinare ane bhej vali jagya e FRP kem saru",
+        "Amaru pura thayelu kaam: pehla ane pachhi (tamara photo)",
+        "Quality check: kaam pura thaya pachhi shu tapasvu",
+        "Gyan: PCC ane RCC no farak",
+        "Gyan: M20, M25 concrete no arth shu",
+        "Gyan: Curing kem jaruri — concrete ni takat kem vadhe",
+        "Gyan: Slump test shu batave",
+        "Gyan: Sariya (TMT) Fe500 / Fe550 no arth",
+        "Gyan: BBS (Bar Bending Schedule) shu chhe",
+        "Gyan: Load-bearing vs frame structure",
+        "Gyan: Plinth, lintel ane chhajja shu",
+        "Gyan: Cover block kem mukay",
+        "Gyan: Eint na prakar (lal eint, fly ash, AAC block)",
+        "Gyan: Expansion joint kem rakhay",
+        "Gyan: Soil test bandhkam pehla kem",
+        "Gyan: kV, kVA ane kW no farak",
+        "Gyan: 11 kV ane 33 kV line kya vapray",
+        "Gyan: Transformer kem kaam kare (saral bhasha)",
+        "Gyan: Insulator kem jaruri ane tena prakar",
+        "Gyan: ACSR conductor shu chhe",
+        "Gyan: Earthing kem jiv bachave",
+        "Gyan: Lightning arrester shu kare",
+        "Gyan: CT ane PT shu chhe",
+        "Gyan: Substation ma shu shu hoy",
+        "Gyan: Overhead vs underground line",
+        "Gyan: Power factor saral bhasha ma",
+        "Gyan: Line ma 'trip' kem thay",
+        "Gyan: FRP shu chhe — fiber ane resin",
+        "Gyan: FRP kem kaat (rust) nathi khatu",
+        "Gyan: Pultrusion — FRP kem bane",
+        "Gyan: FRP ma current kem nathi lagtu (insulation)",
+        "Gyan: FRP grating ma mesh ane load ni samaj",
+        "Gyan: FRP vs steel vs aluminium",
+        "Jano chho? Duniya na ajab bandhkam (sacha fact)",
+        "Jano chho? Vijli ghar sudhi kem pahonche chhe",
+        "Quiz: aa construction shabd no arth shu?",
+        "Maanyata vs sachai: bandhkam ni saamanya maanyata",
+        "Maanyata vs sachai: vijli ni saamanya maanyata",
+        "Ame GETCO, solar ane windfarm na kaam pan kariye chhie",
+        "GETCO shu chhe ane transmission line nu kaam kem thay (general)",
+        "Transmission vs distribution line: GETCO ane DISCOM no farak",
+        "Substation (66 kV / 132 kV / 220 kV) ma shu shu hoy (general)",
+        "Rooftop solar: ghar/factory mate shu jovu",
+        "Solar plant nu kaam step by step: survey → structure → module → cabling → grid",
+        "Solar module mounting structure: majbut ane kaat vagar",
+        "Solar plant ma earthing ane lightning protection",
+        "Solar panel ni safai ane maintenance",
+        "Solar ma DC ane AC cabling ni safety",
+        "Solar plant thi grid sudhi evacuation line",
+        "Windfarm shu chhe ane vijli kem bane",
+        "Windfarm ma 33 kV internal line ane pooling substation",
+        "Windmill (WTG) site par safety",
+        "Varsad-vavazoda ma solar/wind site ni sambhal",
+        "Gyan: Solar panel vijli kem banave (saral bhasha)",
+        "Gyan: On-grid vs off-grid solar",
+        "Gyan: Inverter shu kare",
+        "Gyan: Net metering no arth (niyam official tapaso)",
+        "Gyan: MW ane MWh no farak",
+        "Gyan: Windmill na pankha (blade) kem farta",
+        "Gyan: Gujarat ma solar-wind kem vadhare (taddako ane pavan)",
+        "Jano chho? Renewable energy (solar-wind) thi paryavaran ne fayda",
+        "Maanyata vs sachai: solar panel varsad ma kaam nathi karta?"
+      ],
+      "formats": {
+        "post": true,
+        "story": true,
+        "reel": true,
+        "video": true,
+        "carousel": true
+      },
+      "time_variation_minutes": 30,
+      "auto_reply": false,
+      "faq": "",
+      "voice": "hindi_female",
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "labour_manpower",
+          "scrap"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 0,
+        "scenes": 12,
+        "crops": [
+          "Ghar no paayo (foundation)",
+          "RCC slab ane column",
+          "Plaster ane chanatar",
+          "Waterproofing (bhej thi bachav)",
+          "Ghar ni electrical wiring ni safety",
+          "11 kV HT line nu kaam",
+          "33 kV line ane substation",
+          "Transformer installation",
+          "Earthing",
+          "FRP grating",
+          "FRP cable tray ane pipe",
+          "Bandhkam nu budget planning",
+          "Ghar banavvani sampurn prakriya",
+          "Industrial shed nu bandhkam",
+          "Compound wall",
+          "Flooring ane tiles",
+          "Ghar no rang (painting)",
+          "LT line nu kaam",
+          "22 kV line",
+          "Underground cable laying",
+          "Line shifting",
+          "Lineman ni safety",
+          "DP structure ane pole erection",
+          "FRP ladder",
+          "FRP handrail ane walkway",
+          "FRP tank",
+          "FRP sheet ane panel",
+          "FRP fitting ane maintenance",
+          "Contractor kem pasand karvo",
+          "GETCO transmission line nu kaam",
+          "Substation nu bandhkam",
+          "Rooftop solar",
+          "Ground-mounted solar plant",
+          "Solar module mounting structure",
+          "Solar plant maintenance",
+          "Windfarm nu electrical kaam",
+          "Pooling substation ane evacuation line"
+        ]
+      },
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: Gujarat construction infrastructure",
+            "url": "https://news.google.com/rss/search?q=Gujarat+construction+OR+infrastructure+project+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: Gujarat power line substation",
+            "url": "https://news.google.com/rss/search?q=Gujarat+substation+OR+transmission+line+OR+GETCO+OR+DISCOM+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: Gujarat solar wind",
+            "url": "https://news.google.com/rss/search?q=Gujarat+solar+OR+wind+energy+OR+renewable+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: GETCO",
+            "url": "https://news.google.com/rss/search?q=GETCO+OR+Gujarat+transmission+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "12:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "Pick news useful for this page: solar, wind, GETCO/transmission, construction, real estate, road-bridge-building projects, power/electricity line and substation works, FRP/infrastructure news in Gujarat. Only facts from the item."
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "bhavesh_thummar",
+      "env_prefix": "B3_",
+      "business_name": "Bhavesh Thummar",
+      "business_details": "Bhavesh Thummar nu personal page: potana vyavsay no anubhav, mehnat ane safalta ni vaato, roj na sara vichar ane samaj mate upyogi vaato. ⚠️ (Ahi tamara vyavsay ni sachi vigat lakho: shu chhe, kya chhe, kone mate — pachhi j AI saru lakhshe.)",
+      "safety_note": "Personal page: do not invent achievements, awards, numbers or quotes. No politics, religion fights or personal attacks.",
+      "default": {
+        "topic": "prerna, vyavsay no anubhav ane roj na sara vichar",
+        "language": "Hindi (English akshar)",
+        "tone": "potapanu, sachu, prernadayi",
+        "bg_top": "#0d47a1",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Mehnat ane dhiraj thi safalta ni vaat",
+        "Navo vyavsay sharu karta pehla shikhelu",
+        "Bhul mathi shikhvanu: maro anubhav",
+        "Roj savare ni sari aadato",
+        "Paisa bachat ane sacho kharch",
+        "Yuvano mate career ni salah",
+        "Parivar ane kaam nu santulan",
+        "Gam ane samaj mate kaik karvanu mahatva",
+        "Vishvas thi vyavsay kem vadhe",
+        "Nishfalta pachhi fari ubha thavanu",
+        "Saru vanchan ane shikhvanu chalu rakhvu",
+        "Time management ni saral rit",
+        "Mitro ane sathi kem pasand karva",
+        "Roj no ek saro vichar"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "phone_zone",
+          "import_export"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 4,
+        "scenes": 12,
+        "crops": [
+          "Navo vyavsay sharu karvo",
+          "Paisa nu planning",
+          "Marketing saral bhasha ma",
+          "Team banavvi",
+          "Customer no vishvas",
+          "Samay nu sanchalan",
+          "Digital/online vyavsay",
+          "Nishfalta mathi aagal vadhvu"
+        ]
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "labour_manpower",
+      "env_prefix": "B4_",
+      "business_name": "Labour and Manpower Supply",
+      "business_details": "Labour and Manpower Supply: ame badha prakar na kaam mate labour puro padie chhie — construction (kadiya, helper, sariya-bandhai, centring), factory ane industry (operator, helper, packing), power line ane electrical kaam (helper, lineman ni team), welding-fabrication, godown/warehouse ane loading-unloading, kheti (season ma majur), road-bridge kaam, hotel-event staff, safai ane housekeeping, security. Skilled ane unskilled, roj, mahine ke contract par, samay par ane vishvas sathe. Kamdar ni safety, talim ane PF/ESIC jeva niyam nu palan amara mate mahatva nu chhe. (Ahi shaher, phone ane khas seva umero.)",
+      "safety_note": "Do not promise jobs, fixed wages, salaries or guarantees; never ask workers for money; no fake client names. SAFETY posts: general, widely accepted good practice only (PPE, training, supervision); for electrical/high-voltage, height, confined-space and chemical work always say only trained and authorised workers with permit and supervisor. PF/ESIC/labour-law posts: explain concepts simply; do NOT state exact contribution %, wage limits, interest rates, penalties or deadlines unless the user gave them — rules change, so always add 'taaji niyam EPFO (epfo.gov.in) / ESIC (esic.gov.in) / shram vibhag par tapaso'. Not legal advice. Govt schemes (e-Shram, welfare board, Ayushman, skill training): explain generally who it helps and where to check; never state amounts, eligibility limits or deadlines — say 'official portal / shram kacheri par tapaso'. Worker stories must be generic examples, never fake named testimonials.",
+      "default": {
+        "topic": "badha kaam mate labour supply, field pramane kamdar ni safety, PF/ESIC ane kamdar na niyam",
+        "language": "Hindi (English akshar)",
+        "tone": "vishvasniya, professional, saral",
+        "bg_top": "#4a148c",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Badha kaam mate labour: ame kaya kaya field ma kamdar aapie chhie",
+        "Construction site safety: helmet, safety shoes, harness",
+        "Unchai par kaam (height work): safety belt ane scaffolding na niyam",
+        "Factory/machine par kaam: guard, lockout ane talim",
+        "Electrical ane power line kaam ni safety: shutdown, permit, gloves",
+        "Welding-cutting ni safety: aankh, haath ane aag thi bachav",
+        "Godown ane loading-unloading: vajan uthavvani sachi rit",
+        "Kheti majur mate safety: dava chhantkav vakhte mask ane gloves",
+        "Road ane bridge kaam: traffic thi bachav ane reflective jacket",
+        "Tanki, khaada, gatar (confined space) ma kaam — jokham ane suraksha",
+        "Chemical ane rang-kaam: hava-ujas ane PPE",
+        "Garmi (heat) ma kaam: pani, aaram ane loo thi bachav",
+        "First aid box ane emergency number site par kem jaruri",
+        "PF (Provident Fund) shu chhe ane kamdar ne shu fayda",
+        "UAN number shu chhe ane kem jaruri",
+        "PF balance kem jovu ane KYC (Aadhaar, bank) jodvu",
+        "ESIC shu chhe: kamdar ane parivar ne arogya suvidha",
+        "Kamdar ne pagar slip, hajri ane samay par pagar nu mahatva",
+        "Kamdar na adhikar: rajao, overtime ane saro vyavahar (general)",
+        "Company mate: kamdar rakhta pehla PF/ESIC ane document",
+        "Navo kamdar: pehla divase safety talim (induction)",
+        "Kaam male te pehla kamdar e shu tapasvu (fraud thi bachav)",
+        "e-Shram card shu chhe ane kamdar ne fayda (general)",
+        "Bandhkam kamdar mate sarkari kalyan board ni yojana kya thi jovi",
+        "Ayushman card ane kamdar nu arogya",
+        "Kaushalya talim (skill training) thi vadhu pagar ni taak",
+        "Minimum wage no arth (rakam rajya pramane — official tapaso)",
+        "Contract labour: company ane contractor ni jawabdari (general)",
+        "Kamdar mate rahevanu, pani ane safai ni vyavastha",
+        "Site par mahila kamdar ni suraksha ane saman vyavahar",
+        "Bal majuri na kariye — kaydo ane jawabdari",
+        "Kamdar ni tabiyat: aankh, kamar ane fefsa ni sambhal",
+        "Daru-nasha vagar site — safety mate jaruri",
+        "Company mate: saro kamdar lambo samay kem take",
+        "Kamdar ni hajri ane kaam ni nondh kem rakhvi",
+        "Season ma vadhu kamdar ni jarur — pehla thi planning",
+        "Industrial area ma manpower supply ni amari seva",
+        "1 May Shramik Din: kamdar nu maan",
+        "Tahevar ma kamdar ne shubhechha ane aabhar",
+        "Kamdar ni mehnat ni sachi kahani (sathe kaam karta anubhav — banavti nahi)",
+        "Navi jagya e kaam: kamdar mate jaruri document (Aadhaar, bank, photo)",
+        "Accident thay to turant shu karvu (first aid ane report)"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "chiron_enterprise",
+          "scrap"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 1,
+        "scenes": 12,
+        "crops": [
+          "Construction site ni safety",
+          "Unchai par kaam ni safety",
+          "Electrical ane power line kaam ni safety",
+          "Welding ni safety",
+          "Factory machine ni safety",
+          "Loading-unloading ane godown safety",
+          "Confined space (tanki, khaada) ni safety",
+          "Kheti majur ni safety",
+          "PF (Provident Fund) ane UAN",
+          "ESIC",
+          "Kamdar na adhikar ane pagar",
+          "Company mate labour compliance (PF, ESIC, register)",
+          "Site par first aid ane emergency",
+          "Garmi ane varsad ma kaam ni safety",
+          "e-Shram ane kamdar kalyan yojana",
+          "Skill training (kaushalya) ane certificate",
+          "Kamdar nu arogya ane tabiyat",
+          "Mahila kamdar ni suraksha",
+          "Accident pachhi shu karvu",
+          "Company mate saro kamdar kem rakhvo"
+        ]
+      },
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: Gujarat jobs recruitment",
+            "url": "https://news.google.com/rss/search?q=Gujarat+jobs+OR+recruitment+OR+bharti+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: labour law India",
+            "url": "https://news.google.com/rss/search?q=labour+code+OR+worker+safety+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: EPFO PF ESIC",
+            "url": "https://news.google.com/rss/search?q=EPFO+OR+ESIC+OR+provident+fund+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: worker safety India",
+            "url": "https://news.google.com/rss/search?q=worker+safety+OR+labour+safety+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "12:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "Pick news useful for workers and employers: EPFO/PF and ESIC rule changes, labour codes, worker safety, accidents-prevention advice, skill training and job/recruitment news in India/Gujarat. Never invent wages, vacancies, % or dates; for PF/ESIC end with 'vigat EPFO / ESIC ni official website par tapaso'."
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "scrap",
+      "env_prefix": "B5_",
+      "business_name": "Scrap",
+      "business_details": "Scrap (bhangar) no vyavsay: loha, steel, tamba (copper), pittal, aluminium, plastic, kagal-pustha, juna machine, vehicle scrap ane e-waste ni kharidi-vechan. Ghar, dukan, factory ane construction site parthi scrap uthavvu, sacho vajan, turant payment ane recycling thi paryavaran ne madad. (Ahi shaher ane phone number umero.)",
+      "safety_note": "Do not invent scrap rates/prices, offers or client names. Never encourage buying stolen material. E-waste/battery handling tips must be safe and general.",
+      "default": {
+        "topic": "scrap/bhangar vechvanu, recycling, sacho vajan ane paryavaran",
+        "language": "Hindi (English akshar)",
+        "tone": "vishvasniya, saral, mitratapurn",
+        "bg_top": "#006064",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Ghar ma padelo juno saman — vechi ne paisa",
+        "Loha, tamba, pittal, aluminium alag kem karva",
+        "E-waste (juna mobile, TV) nu saro nikal",
+        "Juna vehicle no scrap kem vechvo",
+        "Factory ane site nu scrap — niyamit pickup",
+        "Sacho vajan ane imandar kaanto kem jaruri",
+        "Recycling thi paryavaran ne fayda",
+        "Plastic ane kagal-pustha nu recycling",
+        "Battery ane chemical vala scrap ni safety",
+        "Scrap vechta pehla shu dhyan rakhvu",
+        "Ghare aavi ne scrap uthavvani seva",
+        "Juna machine ane motor no scrap"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "chiron_enterprise",
+          "labour_manpower"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 3,
+        "scenes": 12,
+        "crops": [
+          "Loha-steel scrap",
+          "Tamba (copper) scrap",
+          "Aluminium scrap",
+          "Pittal (brass) scrap",
+          "E-waste",
+          "Juna vehicle no scrap",
+          "Battery scrap ni safety",
+          "Plastic recycling",
+          "Kagal-pustha recycling",
+          "Factory scrap management"
+        ]
+      },
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: scrap recycling India",
+            "url": "https://news.google.com/rss/search?q=scrap+recycling+OR+e-waste+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: vehicle scrappage policy",
+            "url": "https://news.google.com/rss/search?q=vehicle+scrappage+policy+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "12:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "Pick news useful for this page: scrap/recycling industry, metal (steel, copper, aluminium) market trend, e-waste and vehicle scrappage policy news — never invent scrap rates. Only facts from the item."
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "saitica",
+      "env_prefix": "B6_",
+      "business_name": "Saitica",
+      "business_details": "Saitica: sharir na dukhava (kamar, gardan, ghunta, khabha) ane sciatica (kamar thi pag sudhi jato nas no dukhavo) ma rahat mate saral ayurvedic gharelu nuskha, halvi kasrat-stretching, yoga, saru besvu-suvanu (posture) ane roj ni sari aadato.",
+      "safety_note": "HEALTH: only general, safe, widely accepted tips. Never claim a cure or guaranteed result. Never diagnose. Never give medicine, herb or oil DOSES or replace a doctor's treatment. Every post must remind: 'dukhavo vadhe ke lambo chale to doctor/vaidya ne batavo'. Mention red flags when relevant (pag ma kamjori/sunn thavu, peshab-jhada par kabu na rahe, taav, akasmat pachhi dukhavo) → turant doctor. Exercises: gentle, stop if pain increases; pregnant women, elderly and recent-surgery patients should ask a doctor first.",
+      "default": {
+        "topic": "kamar-pag na dukhava ane sciatica mate ayurvedic nuskha, kasrat ane sari aadato",
+        "language": "Hindi (English akshar)",
+        "tone": "kalji vadu, shant, saral, vishvasniya",
+        "bg_top": "#880e4f",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Sciatica shu chhe ane kem thay (saral samaj)",
+        "Kamar na dukhava ma roj ni 5 halvi stretching",
+        "Saru besvu ane suvanu (posture) — kamar bachavo",
+        "Garam-thanda shek: kyare shu (general)",
+        "Ayurveda ma kamar-dukhava mate gharelu upay (general)",
+        "Vajan ane kamar nu dukhavo",
+        "Mobile/computer vaprta gardan na dukhava thi bachav",
+        "Ghunta na dukhava mate halvi kasrat",
+        "Yoga asan je kamar ne rahat aape (dhyan sathe)",
+        "Kyare turant doctor pase javu (chetavani na sanket)",
+        "Bhare vajan uthavvani sachi rit",
+        "Roj chalvanu ane sharir ni gati",
+        "Sari ungh ane gaddi/osiku ni pasandgi",
+        "Khorak ma shu dhyan rakhvu (hadka ane snayu mate)"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 5,
+        "scenes": 12,
+        "crops": [
+          "Sciatica",
+          "Kamar no dukhavo (lower back pain)",
+          "Gardan no dukhavo",
+          "Ghunta no dukhavo",
+          "Khabha no dukhavo (frozen shoulder)",
+          "Saro posture",
+          "Kamar mate yoga",
+          "Office ma besi ne kaam karnara mate",
+          "Vadil mate halvi kasrat"
+        ]
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "gujarat_agri_business",
+      "env_prefix": "B7_",
+      "business_name": "Gujarat Agri Business",
+      "business_details": "Gujarat no agri business: khetipedash ni le-ved, bij-khatar-dava ane sadhan no vyavsay, agri startup, food processing, export ni taak ane khedut-vepari mate business ni sachi mahiti.",
+      "safety_note": "Do not give exact chemical doses, guaranteed profits, prices or subsidy amounts. Tell people to check official sources (i-Khedut, APMC, KVK).",
+      "default": {
+        "topic": "agri business ni taak, le-ved, processing ane bajar",
+        "language": "Hindi (English akshar)",
+        "tone": "jankar, vishvasniya, saral",
+        "bg_top": "#33691e",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Kheti ni pedash ma value addition (processing)",
+        "Agri startup: navaa vichar ane taak",
+        "Bij-khatar-dava dealer bano: shu jaruri",
+        "Farmer Producer Organization (FPO) shu chhe",
+        "Food processing: masala, dal, tel ni nani unit",
+        "Kheti ni pedash nu export kem thay",
+        "Godown ane cold storage no vyavsay",
+        "Organic utpadan ni bajar ane certificate",
+        "Mandi bahar vechan: sidhu customer sudhi",
+        "Agri machinery bhade aapvano vyavsay",
+        "Dairy ane pashupalan business",
+        "Kheti ma online/digital vechan",
+        "Agri loan ane sarkari yojana kya thi jovi"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "kheti",
+      "calendar_tags": [
+        "all",
+        "kheti"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "khedut_putra",
+          "our_gujarat_news"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 1,
+        "scenes": 12,
+        "crops": [
+          "FPO (Farmer Producer Organization)",
+          "Cold storage no vyavsay",
+          "Dal mill",
+          "Masala processing unit",
+          "Organic certificate",
+          "Kheti ni pedash nu export",
+          "Dairy unit",
+          "Bij-khatar dealer",
+          "Agri machinery bhade",
+          "Godown (warehouse) vyavsay"
+        ]
+      },
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: agri business India",
+            "url": "https://news.google.com/rss/search?q=agribusiness+OR+food+processing+OR+FPO+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: Gujarat agriculture business",
+            "url": "https://news.google.com/rss/search?q=Gujarat+agri+business+OR+agro+processing+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "12:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "Pick news useful for this page: agri business, food processing, FPO, agri startup, agri export, mandi and agri market news (India/Gujarat). Only facts from the item."
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "import_export",
+      "env_prefix": "B8_",
+      "business_name": "Import Export",
+      "business_details": "Import-export business: Bharat na product (kheti ni pedash, masala, kapad, hastkala) videsh ma vechvani taak, IEC, documents, shipping, buyer kem shodhva ane vyavsay ni saral samaj.",
+      "safety_note": "Do not promise profits or guaranteed buyers. Rules, duties and documents change — tell people to check DGFT / customs official sites. No fake client names.",
+      "default": {
+        "topic": "import export ni taak, documents, shipping ane buyer",
+        "language": "Hindi (English akshar)",
+        "tone": "professional, saral, prernadayi",
+        "bg_top": "#3e2723",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Export business sharu karva IEC shu chhe",
+        "Kaya Bharatiya product ni videsh ma mang",
+        "Pehlo videshi buyer kem shodhvo",
+        "Export documents: invoice, packing list, shipping bill",
+        "Incoterms (FOB, CIF) saral bhasha ma",
+        "Shipping ane container ni samaj",
+        "Payment ma suraksha: LC ane advance",
+        "Masala ane kheti ni pedash nu export",
+        "Quality ane packing nu mahatva",
+        "Export ma saamanya bhulo",
+        "Import karvanu kyare fayda nu",
+        "Sarkari export yojana kya thi tapasvi (DGFT)",
+        "Nana vepari mate export ni sharuat"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "phone_zone",
+          "bhavesh_thummar"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 2,
+        "scenes": 12,
+        "crops": [
+          "IEC (Import Export Code)",
+          "Export documents",
+          "Incoterms (FOB, CIF, EXW)",
+          "Letter of Credit (LC)",
+          "Shipping ane container",
+          "Customs clearance",
+          "Videshi buyer shodhva",
+          "Masala export",
+          "Kapas ane kapad export",
+          "Export packing ane quality"
+        ]
+      },
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: India exports DGFT",
+            "url": "https://news.google.com/rss/search?q=India+exports+OR+DGFT+OR+export+policy+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: Gujarat ports export",
+            "url": "https://news.google.com/rss/search?q=Gujarat+port+OR+Mundra+OR+Kandla+export+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "12:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "Pick news useful for this page: export-import, DGFT, trade policy, shipping, ports and export opportunity news for small Indian exporters. Only facts from the item."
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "movie_hub",
+      "env_prefix": "B9_",
+      "business_name": "Movie Hub",
+      "business_details": "Movie Hub: copyright-free (public domain / Creative Commons) movies and web series, posted in short parts every day.",
+      "safety_note": "Only copyright-free content with a license file. Always credit the source.",
+      "default": {
+        "topic": "classic free movies in parts",
+        "language": "English",
+        "tone": "fun, exciting",
+        "bg_top": "#212121",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [],
+      "formats": {
+        "post": false,
+        "carousel": false,
+        "story": false,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "english_female",
+      "free_video": {
+        "enabled": true,
+        "part_minutes": 3,
+        "times": [
+          "20:00"
+        ],
+        "shape": "vertical",
+        "channels": [],
+        "intro_seconds": 3,
+        "only": true,
+        "catch_up_minutes": 180
+      },
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "cartoon_youtube",
+          "cricket"
+        ]
+      },
+      "page_link": ""
+    },
+    {
+      "enabled": true,
+      "slug": "khodal_dham",
+      "env_prefix": "B10_",
+      "business_name": "Khodal Dham",
+      "business_details": "Gujarat na 3 pavitra dham ni bhakti: (1) Khodal Dham, Kagvad — Maa Khodiyar na darshan, aarti, Khodiyar Jayanti, Navratri ane Lewa Patel samaj ni shraddha. (2) Dwarka — Shri Dwarkadhish (Bhagvan Krishna) nu Jagat Mandir, mangla aarti, dhaja, Janmashtami, Bet Dwarka, Gomti ghat. (3) Somnath — pratham Jyotirlinga Somnath Mahadev, samudra kinare mandir, aarti, Shivratri, Shravan maas. Darshan ni vaat, itihas ane mahima, tahevar, bhakti suvichar, yatra ni upyogi mahiti ane bhakto mate shubh sandesh. Darek divas aa 3 dham vachche farto vishay.",
+      "safety_note": "Devotional page: respectful to all faiths. No miracle/cure claims, no superstition, no donation requests, no politics. Do NOT invent darshan/aarti timings, event dates, trust rules or history facts — for timings tell devotees to check the official temple trust (Shree Khodaldham Trust, Dwarkadhish Devasthan Samiti, Shree Somnath Trust) website. Use only well-known, accepted history.",
+      "default": {
+        "topic": "Khodal Dham, Dwarka ane Somnath ni bhakti, darshan ane mahima",
+        "language": "Hindi (English akshar)",
+        "tone": "bhaktimay, shant, maan-bharyu",
+        "bg_top": "#b71c1c",
+        "bg_bottom": "#ff8f00"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Khodal Dham Kagvad: Maa Khodiyar na darshan ane mahima",
+        "Maa Khodiyar ni katha ane shraddha",
+        "Khodiyar Jayanti / Navratri ni shubhechha",
+        "Dwarka: Shri Dwarkadhish Jagat Mandir na darshan",
+        "Dwarka ni dhaja ane mangla aarti nu mahatva",
+        "Bet Dwarka ane Gomti ghat ni yatra",
+        "Somnath: pratham Jyotirlinga ni mahima",
+        "Somnath mandir no itihas ane samudra kinaro",
+        "Shivratri / Shravan maas ma Somnath darshan",
+        "Saurashtra na 3 dham ni yatra ni upyogi tips",
+        "Roj no bhakti suvichar"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 4,
+        "scenes": 12,
+        "crops": [
+          "Khodal Dham, Kagvad",
+          "Dwarka Jagat Mandir",
+          "Somnath Jyotirlinga",
+          "Bet Dwarka",
+          "Gomti ghat ane Dwarka darshan",
+          "Somnath ni aarti ane samudra darshan",
+          "Saurashtra dham yatra nu planning"
+        ]
+      },
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: Dwarka Somnath Khodaldham",
+            "url": "https://news.google.com/rss/search?q=Dwarka+OR+Somnath+OR+Khodaldham+temple+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "12:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "Pick news useful for this page: official news about Khodal Dham, Dwarka and Somnath temples (festivals, darshan changes, yatra facilities) — only facts from the item. Only facts from the item."
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "phone_zone",
+      "env_prefix": "B11_",
+      "business_name": "Phone Zone",
+      "business_details": "Phone Zone: mobile shop — navaa smartphone, accessories (cover, charger, earphone), repairing, exchange ane mobile vaparvani upyogi tips. (Ahi shaher ane dukan ni vigat lakho.)",
+      "safety_note": "Do not invent prices, offers, stock, discounts or phone specs. Tips must be correct and general.",
+      "default": {
+        "topic": "mobile tips, navaa phone, accessories ane repairing",
+        "language": "Hindi (English akshar)",
+        "tone": "yuva, mitratapurn, jankar",
+        "bg_top": "#0277bd",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Phone ni battery lambi chalavvani 7 tips",
+        "Navo phone leta pehla shu jovu",
+        "Phone garam thay to shu karvu",
+        "Saro cover ane screen guard kem jaruri",
+        "Fast charger: sacho charger kem pasand karvo",
+        "Phone ma jagya (storage) khali karvani rit",
+        "Online fraud ane OTP thi bachav",
+        "Juno phone exchange karvana fayda",
+        "Phone pani ma padi jay to turant shu karvu",
+        "Camera thi sara photo kem levo",
+        "Earphone/earbuds ni pasandgi",
+        "Repairing: display ane battery kyare badlavvi",
+        "Bachcha mate phone ni safety settings"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "products": {
+        "enabled": false,
+        "every": 1,
+        "items": []
+      },
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "import_export",
+          "bhavesh_thummar"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 3,
+        "scenes": 12,
+        "crops": [
+          "Battery ni sambhal",
+          "Navo phone kharidvani guide",
+          "Camera ane photo",
+          "Storage ane speed",
+          "Online fraud thi suraksha",
+          "Charging ane charger",
+          "Phone repairing na sanket",
+          "Earbuds ane accessories",
+          "Bachcha mate phone ni safety"
+        ]
+      },
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: smartphone launch India",
+            "url": "https://news.google.com/rss/search?q=smartphone+launch+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: mobile fraud alert",
+            "url": "https://news.google.com/rss/search?q=mobile+fraud+OR+cyber+fraud+alert+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "12:30"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "Pick news useful for this page: new smartphone launches in India, mobile tips, cyber-fraud alerts, telecom (Jio/Airtel/Vi) plan changes — no rumours. Only facts from the item."
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "cartoon_youtube",
+      "env_prefix": "B12_",
+      "business_name": "Cartoon YouTube",
+      "business_details": "Bachcha mate cartoon kahani YouTube channel: sari seekh (moral) vali nani kahani, prani-pankhi, mitrata, imandari, safai ane saru vartan.",
+      "safety_note": "KIDS content: 100% child-safe. Only ORIGINAL characters (never famous cartoon characters). No violence, scary scenes, bad words, unsafe actions, brands or ads. Always a gentle moral.",
+      "default": {
+        "topic": "sari seekh vali bachcha ni cartoon kahani",
+        "language": "Hindi (English akshar)",
+        "tone": "mithu, khushmizaj, bachcha jevu saral",
+        "bg_top": "#f9a825",
+        "bg_bottom": "#1565c0"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Sachu bolvanu fal (imandari ni kahani)",
+        "Mitrata ane madad ni kahani",
+        "Safai ane sari aadat",
+        "Mehnati kidi ane aalsu tiddo",
+        "Ghamandi sasla ane dhiru kachbu",
+        "Prani-pankhi ne prem",
+        "Mota ne maan aapvu",
+        "Bhaag ma vahenchvanu (sharing)",
+        "Shalae javanu ane bhanvanu mahatva",
+        "Paani ane vruksh bachavo",
+        "Dar ne harvo (bahaduri)",
+        "Maaf karvanu ane maafi mangvi",
+        "Sachi mehnat nu inaam",
+        "Rasta par safety (traffic na niyam)"
+      ],
+      "formats": {
+        "post": false,
+        "carousel": false,
+        "story": false,
+        "reel": false,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "video_style": "cartoon",
+      "video_scenes": 6,
+      "made_for_kids": true,
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "movie_hub",
+          "cricket"
+        ]
+      },
+      "page_link": "",
+      "weekly_compilation": {
+        "enabled": true,
+        "weekday": 6,
+        "time": "18:00",
+        "min_videos": 3,
+        "max_videos": 14,
+        "days": 7
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "cricket",
+      "env_prefix": "B13_",
+      "business_name": "Cricket",
+      "business_details": "Cricket page: India ane duniya na cricket ni taaji khabar, match pehla-pachhi ni vaat, records, cricket na interesting facts, quiz ane fans mate majedar post.",
+      "safety_note": "Cricket: use only facts from news sources; never invent scores, results, stats or quotes. Do NOT promote betting, satta or fantasy apps. Do not use official team/league logos or real player photos — AI images must show generic, unidentifiable players.",
+      "default": {
+        "topic": "cricket ni khabar, records, facts ane quiz",
+        "language": "Hindi (English akshar)",
+        "tone": "josh bharyu, fan jevu, majedar",
+        "bg_top": "#1b5e20",
+        "bg_bottom": "#0d47a1"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Cricket na 10 ajab record",
+        "Cricket itihas ni yaadgar ghatna (fakt janiti ane sachi)",
+        "Mahan khelaadio ni prerak safar (fakt sachi mahiti)",
+        "Cricket quiz: tame ketlu jano chho?",
+        "Cricket na niyam saral bhasha ma (LBW, DRS...)",
+        "World Cup na yaadgar match",
+        "Gaam ni cricket ane local tournament",
+        "Batting ane bowling ni tips yuvano mate",
+        "Fitness: cricketer jevi taiyari",
+        "Cricket pitch ane havaman ni asar",
+        "Fans mate sawal: tamaro priya match kayo?"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "post_image": "ai",
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: cricket",
+            "url": "https://news.google.com/rss/search?q=cricket+India+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: क्रिकेट",
+            "url": "https://news.google.com/rss/search?q=%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%87%E0%A4%9F+when%3A1d&hl=hi&gl=IN&ceid=IN:hi"
+          },
+          {
+            "name": "Google News: India match today",
+            "url": "https://news.google.com/rss/search?q=India+cricket+match+today+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "Google News: cricket result",
+            "url": "https://news.google.com/rss/search?q=cricket+match+result+won+by+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          }
+        ],
+        "include": [],
+        "exclude": [
+          "betting",
+          "satta",
+          "dream11",
+          "fantasy"
+        ],
+        "block": [
+          "politics",
+          "religion",
+          "crime",
+          "betting"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "10:00",
+          "15:00",
+          "19:00",
+          "23:00"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36,
+        "focus": "MATCH DAY first: if an item is about a match TODAY (preview: teams, venue, time if given) or a match RESULT (who won, final score), prefer it. Preview headline style 'Aaj no match: A vs B'; result style 'Parinam: A jityu'. Scores, wickets, player names and results ONLY exactly as written in the item — never guess or predict a winner. Never mention betting, odds, satta or fantasy apps."
+      },
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "movie_hub",
+          "cartoon_youtube"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 2,
+        "scenes": 12,
+        "crops": [
+          "LBW no niyam",
+          "DRS kem kaam kare",
+          "Powerplay",
+          "Test, ODI ane T20 no farak",
+          "Fielding positions",
+          "Duckworth-Lewis (DLS) niyam",
+          "Spin ane fast bowling",
+          "No ball ane wide na niyam"
+        ]
+      }
+    },
+    {
+      "enabled": true,
+      "slug": "our_gujarat_news",
+      "env_prefix": "B14_",
+      "business_name": "Our Gujarat News",
+      "business_details": "Our Gujarat News: Gujarat ni roj ni sachi khabar — shaher-gam, havaman, sarkari yojana, shiksha, vyavsay, kheti, ramat ane loko ne upyogi mahiti, saral bhasha ma.",
+      "safety_note": "News: use only facts from the source. No rumours, no opinion as fact. Avoid politics, religion and crime (blocked).",
+      "default": {
+        "topic": "Gujarat ni taaji ane upyogi khabar",
+        "language": "Hindi (English akshar)",
+        "tone": "spasht, saral, nishpaksh",
+        "bg_top": "#b71c1c",
+        "bg_bottom": "#263238"
+      },
+      "platforms": {
+        "facebook": {
+          "enabled": false
+        },
+        "instagram": {
+          "enabled": false
+        },
+        "youtube": {
+          "enabled": false
+        },
+        "whatsapp": {
+          "enabled": false
+        },
+        "threads": {
+          "enabled": false
+        },
+        "x": {
+          "enabled": false
+        },
+        "linkedin": {
+          "enabled": false
+        },
+        "pinterest": {
+          "enabled": false
+        },
+        "telegram": {
+          "enabled": false
+        },
+        "snapchat": {
+          "enabled": false
+        },
+        "google_business": {
+          "enabled": false
+        }
+      },
+      "accounts": [],
+      "topics": [
+        "Gujarat na jova jeva sthal",
+        "Gujarat no itihas ane sanskruti",
+        "Gujarati tahevar ane parampara",
+        "Gujarat ni prakhyat vangi (food)",
+        "Gujarat na gam ni prerak vaato",
+        "Shiksha ane yuvano mate upyogi mahiti",
+        "Sarkari seva online kem melavvi (general)",
+        "Havaman ane varsad ni upyogi salah",
+        "Gujarat na udyog ane vyavsay",
+        "Gujarat ni nadi, dariyo ane jungle",
+        "Gujarati bhasha ane sahitya",
+        "Rasta ane safety ni jagruti"
+      ],
+      "formats": {
+        "post": true,
+        "carousel": true,
+        "story": true,
+        "reel": true,
+        "video": true
+      },
+      "time_variation_minutes": 30,
+      "season": "",
+      "calendar_tags": [
+        "all"
+      ],
+      "approval_required": true,
+      "voice": "hindi_female",
+      "post_image": "ai",
+      "news": {
+        "enabled": true,
+        "sources": [
+          {
+            "name": "Google News: ગુજરાત",
+            "url": "https://news.google.com/rss/search?q=%E0%AA%97%E0%AB%81%E0%AA%9C%E0%AA%B0%E0%AA%BE%E0%AA%A4+when%3A1d&hl=gu&gl=IN&ceid=IN:gu"
+          },
+          {
+            "name": "Google News: Gujarat",
+            "url": "https://news.google.com/rss/search?q=Gujarat+when%3A1d&hl=en-IN&gl=IN&ceid=IN:en"
+          },
+          {
+            "name": "PIB Gujarat",
+            "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3&reg=48"
+          }
+        ],
+        "include": [],
+        "exclude": [],
+        "block": [
+          "politics",
+          "religion",
+          "crime"
+        ],
+        "prepare_time": "07:30",
+        "post_times": [
+          "09:00",
+          "13:00",
+          "18:00"
+        ],
+        "time_variation_minutes": 20,
+        "channels": [],
+        "approval": true,
+        "max_age_hours": 36
+      },
+      "cross_promo": {
+        "enabled": true,
+        "every": 3,
+        "partners": [
+          "khedut_putra",
+          "gujarat_agri_business"
+        ]
+      },
+      "page_link": "",
+      "weekly_guide": {
+        "enabled": true,
+        "weekday": 5,
+        "scenes": 12,
+        "crops": [
+          "Ahmedabad jillo",
+          "Rajkot jillo",
+          "Surat jillo",
+          "Vadodara jillo",
+          "Bhavnagar jillo",
+          "Jamnagar jillo",
+          "Junagadh jillo",
+          "Kutch jillo",
+          "Amreli jillo",
+          "Gir Somnath jillo",
+          "Devbhumi Dwarka jillo",
+          "Banaskantha jillo",
+          "Mehsana jillo",
+          "Anand jillo",
+          "Kheda jillo",
+          "Bharuch jillo",
+          "Valsad jillo",
+          "Navsari jillo",
+          "Porbandar jillo",
+          "Morbi jillo",
+          "Surendranagar jillo",
+          "Botad jillo",
+          "Patan jillo",
+          "Sabarkantha jillo",
+          "Aravalli jillo",
+          "Gandhinagar jillo",
+          "Panchmahal jillo",
+          "Dahod jillo",
+          "Mahisagar jillo",
+          "Chhota Udepur jillo",
+          "Narmada jillo",
+          "Tapi jillo",
+          "Dang jillo"
+        ]
+      }
+    }
+  ],
+  "delay_between_posts_sec": 20,
+  "approval_required": false,
+  "prepare_minutes": 120,
+  "catch_up_minutes": 180,
+  "time_variation_minutes": 30,
+  "auto_video": true,
+  "video_seconds": 12,
+  "media_host": "auto",
+  "maintenance_time": "23:30",
+  "keep_media_days": 30,
+  "ai_label": true,
+  "hashtag_no_repeat_days": 5,
+  "hashtag_scope": "account",
+  "post_image": "ai",
+  "own_photo_text": false,
+  "access": "phone",
+  "pc_idle_minutes": 30,
+  "backup_to_telegram": true,
+  "name_on_post": {
+    "enabled": true,
+    "opacity": 0.6,
+    "size": 0.02,
+    "position": "top-left"
+  },
+  "advance_schedule": true,
+  "advance_days": 1,
+  "advance_min_minutes": 20,
+  "weekly_report": {
+    "enabled": true,
+    "weekday": 6,
+    "time": "20:00"
+  },
+  "mobile_mode": "view"
+}

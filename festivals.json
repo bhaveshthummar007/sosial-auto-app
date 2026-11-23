@@ -1,0 +1,47 @@
+{
+  "_note": "Tahevar ni yadi. 'fixed' dar varshe e j tarikh. 'dated' ma tithi pramane badalata tahevar (YYYY-MM-DD) — dar varshe navi tarikh umero. 'tags': all = badha brand, kheti = Khedut Putra, construction = Chiron. 2027 tarikh: Drik Panchang Gujarati calendar.",
+
+  "fixed": [
+    {"md": "01-01", "name": "Navu Varsh (English New Year)", "tags": ["all"]},
+    {"md": "01-14", "name": "Uttarayan / Makar Sankranti", "tags": ["all"]},
+    {"md": "01-26", "name": "Prajasattak Din (Republic Day)", "tags": ["all"]},
+    {"md": "03-08", "name": "Mahila Din (Women's Day)", "tags": ["all"]},
+    {"md": "03-22", "name": "World Water Day (paani bachao)", "tags": ["kheti", "construction"]},
+    {"md": "04-22", "name": "Earth Day (dharti din)", "tags": ["kheti"]},
+    {"md": "05-01", "name": "Gujarat Sthapana Din / Majdoor Din", "tags": ["all"]},
+    {"md": "06-05", "name": "World Environment Day (paryavaran din)", "tags": ["all"]},
+    {"md": "07-01", "name": "Van Mahotsav saptah (vruksh vavo)", "tags": ["kheti"]},
+    {"md": "08-15", "name": "Swatantrata Din (Independence Day)", "tags": ["all"]},
+    {"md": "09-15", "name": "Engineers Day", "tags": ["construction"]},
+    {"md": "10-02", "name": "Gandhi Jayanti", "tags": ["all"]},
+    {"md": "10-16", "name": "World Food Day (anna din)", "tags": ["kheti"]},
+    {"md": "12-05", "name": "World Soil Day (jamin/mati din)", "tags": ["kheti"]},
+    {"md": "12-23", "name": "Kisan Diwas (Khedut Din)", "tags": ["kheti"]},
+    {"md": "12-25", "name": "Christmas", "tags": ["all"]},
+    {"md": "12-31", "name": "Varsh no chhello divas", "tags": ["all"]}
+  ],
+
+  "dated": [
+    {"date": "2027-02-11", "name": "Vasant Panchami", "tags": ["all"]},
+    {"date": "2027-03-06", "name": "Maha Shivratri", "tags": ["all"]},
+    {"date": "2027-03-21", "name": "Holi (Holika Dahan)", "tags": ["all"]},
+    {"date": "2027-03-22", "name": "Dhuleti", "tags": ["all"]},
+    {"date": "2027-04-15", "name": "Ram Navami", "tags": ["all"]},
+    {"date": "2027-04-20", "name": "Hanuman Jayanti", "tags": ["all"]},
+    {"date": "2027-05-09", "name": "Akhatrij (Akshaya Tritiya) — navu kaam/kheti sharu karvano shubh divas", "tags": ["all"]},
+    {"date": "2027-07-05", "name": "Ashadhi Bij / Rath Yatra", "tags": ["all"]},
+    {"date": "2027-07-18", "name": "Guru Purnima", "tags": ["all"]},
+    {"date": "2027-08-17", "name": "Raksha Bandhan", "tags": ["all"]},
+    {"date": "2027-08-25", "name": "Janmashtami", "tags": ["all"]},
+    {"date": "2027-09-04", "name": "Ganesh Chaturthi", "tags": ["all"]},
+    {"date": "2027-09-30", "name": "Navratri sharu", "tags": ["all"]},
+    {"date": "2027-10-09", "name": "Dussehra (Vijayadashami)", "tags": ["all"]},
+    {"date": "2027-10-14", "name": "Sharad Purnima", "tags": ["all"]},
+    {"date": "2027-10-27", "name": "Dhanteras", "tags": ["all"]},
+    {"date": "2027-10-29", "name": "Diwali", "tags": ["all"]},
+    {"date": "2027-10-30", "name": "Bestu Varas (Gujarati Navu Varsh)", "tags": ["all"]},
+    {"date": "2027-10-31", "name": "Bhai Bij", "tags": ["all"]},
+    {"date": "2027-11-03", "name": "Labh Pancham — vepar/kaam ni shubh sharuat", "tags": ["all"]},
+    {"date": "2027-11-13", "name": "Dev Diwali", "tags": ["all"]}
+  ]
+}
