@@ -1,0 +1,70 @@
+name: Windows Setup banavo
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Andar nu Python
+        shell: pwsh
+        run: |
+          $v = (python -c "import platform; print(platform.python_version())").Trim()
+          $d = "dist\SocialAutoApp"
+          New-Item -ItemType Directory -Force $d | Out-Null
+          Invoke-WebRequest "https://www.python.org/ftp/python/$v/python-$v-embed-amd64.zip" -OutFile py.zip
+          Expand-Archive py.zip -DestinationPath "$d\python"
+          $pth = Get-ChildItem "$d\python\python3*._pth" | Select-Object -First 1
+          Set-Content -Encoding ascii $pth.FullName "$($pth.BaseName).zip`r`n.`r`nLib\site-packages`r`n..`r`nimport site"
+
+      - name: Library
+        run: python -m pip install --target dist\SocialAutoApp\python\Lib\site-packages -r requirements.txt
+
+      - name: App ni files
+        shell: pwsh
+        run: |
+          $d = "dist\SocialAutoApp"
+          $skip = @("dist", "installer", "tests", ".github", ".git", "Dockerfile", "docker-compose.yml", ".env", ".env.enc", "install_log.txt", "android_termux_setup.sh", "py.zip")
+          Get-ChildItem -Force | Where-Object { $skip -notcontains $_.Name } | ForEach-Object { Copy-Item $_.FullName -Destination $d -Recurse -Force }
+          New-Item -ItemType Directory -Force "$d\output", "$d\fonts", "$d\movies" | Out-Null
+
+      - name: Gujarati font ane tapas
+        working-directory: dist\SocialAutoApp
+        shell: pwsh
+        run: |
+          .\python\python.exe -c "from app import fonts; print(fonts.ensure(quiet=True))"
+          .\python\python.exe -c "import app.winfix as w; print(w.download())"
+          .\python\python.exe main.py --dry-run --sample --no-doctor --brand khedut_putra
+          if ($LASTEXITCODE -ne 0) { throw "App chalavvama bhul" }
+          Get-ChildItem output -Force | Where-Object { $_.Name -ne ".gitkeep" } | Remove-Item -Recurse -Force
+
+      - name: Setup.exe
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "C:\Program Files (x86)\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer\SocialAutoApp.iss
+          if ($LASTEXITCODE -ne 0) { throw "Setup banavvama bhul" }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SocialAutoApp_Setup
+          path: installer\Output\SocialAutoApp_Setup.exe
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: setup-${{ github.run_number }}
+          name: Social Auto App Setup (${{ github.run_number }})
+          make_latest: true
+          files: installer/Output/SocialAutoApp_Setup.exe
